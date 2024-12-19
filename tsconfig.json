@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Enable React JSX transform
+    "module": "ESNext", // Use ES modules
+    "target": "ES6",    // Target modern JavaScript
+    "moduleResolution": "node", // Resolve modules like Node.js
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"] // Optional: Simplify imports
+    },
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true, // Optional for React
+    "esModuleInterop": true // Optional: Interoperability with CommonJS
+  },
+  "include": ["src"], // Ensure all source files are included
+  "exclude": ["node_modules"]
+}
