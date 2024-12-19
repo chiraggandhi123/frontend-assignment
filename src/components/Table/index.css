@@ -15,7 +15,13 @@
     width: 100%;
     border-collapse: collapse;
   }
-  
+  .table #tableTitle{
+    font-size: 24px;
+    font-family:'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#007bff;
+  }
   .table th {
     background-color: #007bff;
     color: #fff;
@@ -85,8 +91,7 @@
   
   .pagination button:hover {
     background-color: #007bff;
-    color: #fff;
-  }
+    color: #fff;  }
   
   .pagination button:disabled {
     background-color: #ccc;
